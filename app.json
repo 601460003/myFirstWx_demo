@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/subjeck/subjeck",
+    "pages/shoplist/shoplist",
+    "pages/shopcar/shopcar",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1989fa",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#7d7e80",
+    "selectedColor":"#1989fa",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "精选",
+        "iconPath":"common/image/home.png",
+        "selectedIconPath":"common/image/home1.png"
+      },
+      {
+        "pagePath":  "pages/subjeck/subjeck",
+        "text": "专题",
+        "iconPath":"common/image/news.png",
+        "selectedIconPath":"common/image/news01.png"
+      },
+      {
+        "pagePath": "pages/shoplist/shoplist",
+        "text": "分类",
+        "iconPath":"common/image/form.png",
+        "selectedIconPath":"common/image/form01.png"
+
+      },
+      {
+        "pagePath":"pages/shopcar/shopcar",
+        "text": "购物车",
+        "iconPath":"common/image/car01.png",
+        "selectedIconPath":"common/image/car.png"
+
+      },  {
+        "pagePath": "pages/me/me",
+        "text": "个人",
+        "iconPath":"common/image/people.png",
+        "selectedIconPath":"common/image/people01.png"
+
+      }
+
+    ]
+  }
+}

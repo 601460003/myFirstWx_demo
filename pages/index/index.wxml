@@ -1,0 +1,180 @@
+<!--index.wxml-->
+<!--搜索框-->
+<view>
+<input class='title-input' type='text' placeholder='搜索商品，共21303款好货'></input>
+</view>
+<!--轮播图-->
+<!--<view class="swiper-view">-->
+<swiper autoplay interval="3000" circular indicator-dots>
+    <swiper-item wx:for="{{imgBanner}}" wx:key="{{index}}"  data-index="{{index}}">
+        <image mode="widthFix" src="{{item.poster}}" style="width: 100%"></image>
+    </swiper-item>
+</swiper>
+<!--</view>-->
+<!--8小时内快速发货-->
+<view class="imgs-title" >
+    <span>8小时内快速发货</span>
+    <span>30天内无忧退货</span>
+    <span>48小时内快速退货</span>
+</view>
+<view class="main-shop">
+    <!--机油坐标-->
+    <ul class="shop_box">
+        <!--1-->
+        <li >
+            <!--商品图片-->
+            <view class="shop-left" >
+                <image  class="subject-image" src="http://192.168.5.60/5a9e78d7N488e1cb5.jpg"/>
+                <!--商品内容-->
+                <view class="goods-goods">
+                    <view style="text-align: left">
+                        <text class="goods-describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+                    </view>
+                </view>
+                <!--商品价格-->
+                <view class="goods_price">
+                    <text class="goods-price">￥29.99</text>
+                </view>
+            </view>
+        </li>
+        <!--2-->
+        <li >
+            <!--商品图片-->
+            <view class="shop-left" >
+                <image  class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg"/>
+                <!--商品内容-->
+                <view class="goods-goods">
+                    <view style="text-align: left">
+                        <text class="goods-describe">爱德王子AX5 SL 4T 摩托车机油 润滑油 10W-40 1升</text>
+                    </view>
+                </view>
+                <!--商品价格-->
+                <view class="goods_price">
+                    <text class="goods-price">￥40.99</text>
+                </view>
+            </view>
+        </li>
+        <!--3-->
+        <li >
+            <!--商品图片-->
+            <view class="shop-left" >
+                <image  class="subject-image" src="http://192.168.5.60/581a9b95N7adc1fc7.jpg"/>
+                <!--商品内容-->
+                <view class="goods-goods">
+                    <view style="text-align: left">
+                        <text class="goods-describe">超级奔程四冲程摩托车机油 10W-30 4T SG级 JASO MA-2 0.95L</text>
+                    </view>
+                </view>
+                <!--商品价格-->
+                <view class="goods_price">
+                    <text class="goods-price">￥28.88</text>
+                </view>
+            </view>
+        </li>
+    </ul>
+</view>
+<!--人气推介-->
+<view >
+    <!--人气标题-->
+    <view class="host_title">
+        <text class="host_title_right">更多 ></text>
+        <text>人气推荐</text>
+    </view>
+    <!--人气商品-->
+    <view class="getChoice"  >
+        <view style="padding: 20px">
+            <image class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg" />
+        </view>
+        <view >
+            <text class="host_shop_name">美孚机油</text>
+            <text class="host_shop_describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+            <text class="host_shop_price">￥29.99</text>
+        </view>
+    </view>
+    <view class="getChoice"  >
+        <view style="padding: 20px">
+            <image class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg" />
+        </view>
+        <view >
+            <text class="host_shop_name">美孚机油</text>
+            <text class="host_shop_describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+            <text class="host_shop_price">￥29.99</text>
+        </view>
+    </view>
+    <view class="getChoice"  >
+        <view style="padding: 20px">
+            <image class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg" />
+        </view>
+        <view >
+            <text class="host_shop_name">美孚机油</text>
+            <text class="host_shop_describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+            <text class="host_shop_price">￥29.99</text>
+        </view>
+    </view>
+    <view class="getChoice"  >
+        <view style="padding: 20px">
+            <image class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg" />
+        </view>
+        <view >
+            <text class="host_shop_name">美孚机油</text>
+            <text class="host_shop_describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+            <text class="host_shop_price">￥29.99</text>
+        </view>
+    </view>
+    <view class="getChoice"  >
+        <view style="padding: 20px">
+            <image class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg" />
+        </view>
+        <view >
+            <text class="host_shop_name">美孚机油</text>
+            <text class="host_shop_describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+            <text class="host_shop_price">￥29.99</text>
+        </view>
+    </view>
+    <view class="getChoice"  >
+        <view style="padding: 20px">
+            <image class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg" />
+        </view>
+        <view >
+            <text class="host_shop_name">美孚机油</text>
+            <text class="host_shop_describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+            <text class="host_shop_price">￥29.99</text>
+        </view>
+    </view>
+    <view class="getChoice"  >
+        <view style="padding: 20px">
+            <image class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg" />
+        </view>
+        <view >
+            <text class="host_shop_name">美孚机油</text>
+            <text class="host_shop_describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+            <text class="host_shop_price">￥29.99</text>
+        </view>
+    </view>
+    <view class="getChoice"  >
+        <view style="padding: 20px">
+            <image class="subject-image" src="http://192.168.5.60/5a3388acN6e90867b.jpg" />
+        </view>
+        <view >
+            <text class="host_shop_name">美孚机油</text>
+            <text class="host_shop_describe">美孚旋风4T 摩托车机油 四冲程摩托车机油 10W-40 SF级 1L 汽车用品</text>
+            <text class="host_shop_price">￥29.99</text>
+        </view>
+    </view>
+</view>
+<!--专题精选-->
+<view style="background: white;padding: 0 10px">
+    <view style="padding: 10px;margin-top: 10px;color: rgb(85, 85, 85);font-size: 15px">
+        <text class="host_title_right">更多 ></text>
+        <text>专题精选</text>
+    </view>
+    <!--专题内容-->
+    <view class="subject_box">
+        <!--专题图片-->
+        <image class="subject-image-da" src="http://192.168.5.60/1551582967.png" />
+        <!--专题标题-->
+
+        <!--内柔-->
+        <text class="subject-content">友力企业成立于1996年6月，是全国化油器行业协会、中国内燃机工业协会、中国化油器标准制定委员会的模范会员单位。友力作为中国摩托车及通用汽油机化油器的一线制造品牌，在国四转型期间，友力\r\n          企业也正在不断研发升级其电喷系统能力，致力为中国摩托车电喷行业提供更多更好的臻品</text>
+    </view>
+</view>

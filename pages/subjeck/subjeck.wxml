@@ -1,0 +1,63 @@
+<!--pages/subjeck/subjeck.wxml-->
+<view class="subject_title">
+    <view  class="header" >
+        <!--头像-->
+        <view class="subject_icon_box">
+            <image class="subject_icon" src="http://192.168.5.60/timg.jpg"/>
+            <text class="subject_mobile">13928126775</text>
+        </view>
+        <!--专题评论-->
+        <view class="subject_content">
+            <!--大图片-->
+            <view class="subject_img">
+                <image src="http://192.168.5.60/5a9e78d7N488e1cb5.jpg" />
+            </view>
+            <!--评论标题-->
+            <view>
+                <!--<span style="float: right;color: #f44;padding-right: 10px;font-size: 14px">{{car.price}}元</span>-->
+                <h3>美孚机油</h3>
+            </view>
+            <text class="comment_p" >破例第一次网上购买机油,直接买了一箱！购买试试，昨晚买的，今天就立马到货了，神速！各方面也全部验证，不论二维扫描，亮彩片，瓶盖凹凸点以及生产日期以及同方向的批号，还有就是机油的颜色，香味，以及在冰箱里冷藏后的形态跟低温流动性，的确是行货银美孚！因为我家里有很多当地美孚经销商送货来的行货银美孚可对比！毕竟我是搞汽修的，合作愉快，下次用完了我还会来的</text>
+        </view>
+    </view>
+    <view  class="header" >
+        <!--头像-->
+        <view class="subject_icon_box">
+            <image class="subject_icon" src="http://192.168.5.60/timg.jpg"/>
+            <text class="subject_mobile">13928126775</text>
+        </view>
+        <!--专题评论-->
+        <view class="subject_content">
+            <!--大图片-->
+            <view class="subject_img">
+                <image src="http://192.168.5.60/5a9e78d7N488e1cb5.jpg" height="100px"/>
+            </view>
+            <!--评论标题-->
+            <view>
+                <!--<span style="float: right;color: #f44;padding-right: 10px;font-size: 14px">{{car.price}}元</span>-->
+                <h3>美孚机油</h3>
+            </view>
+            <text class="comment_p" >破例第一次网上购买机油,直接买了一箱！购买试试，昨晚买的，今天就立马到货了，神速！各方面也全部验证，不论二维扫描，亮彩片，瓶盖凹凸点以及生产日期以及同方向的批号，还有就是机油的颜色，香味，以及在冰箱里冷藏后的形态跟低温流动性，的确是行货银美孚！因为我家里有很多当地美孚经销商送货来的行货银美孚可对比！毕竟我是搞汽修的，合作愉快，下次用完了我还会来的</text>
+        </view>
+    </view>
+    <view  class="header" >
+        <!--头像-->
+        <view class="subject_icon_box">
+            <image class="subject_icon" src="http://192.168.5.60/timg.jpg"/>
+            <text class="subject_mobile">13928126775</text>
+        </view>
+        <!--专题评论-->
+        <view class="subject_content">
+            <!--大图片-->
+            <view class="subject_img">
+                <image src="http://192.168.5.60/5a9e78d7N488e1cb5.jpg" height="100px"/>
+            </view>
+            <!--评论标题-->
+            <view>
+                <!--<span style="float: right;color: #f44;padding-right: 10px;font-size: 14px">{{car.price}}元</span>-->
+                <h3>美孚机油</h3>
+            </view>
+            <text class="comment_p" >破例第一次网上购买机油,直接买了一箱！购买试试，昨晚买的，今天就立马到货了，神速！各方面也全部验证，不论二维扫描，亮彩片，瓶盖凹凸点以及生产日期以及同方向的批号，还有就是机油的颜色，香味，以及在冰箱里冷藏后的形态跟低温流动性，的确是行货银美孚！因为我家里有很多当地美孚经销商送货来的行货银美孚可对比！毕竟我是搞汽修的，合作愉快，下次用完了我还会来的</text>
+        </view>
+    </view>
+</view>
